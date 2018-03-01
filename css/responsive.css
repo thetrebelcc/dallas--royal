@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+.logo img {
+    padding-top: 0px;
+    height: 88px;
+}
+
+@media only screen and (min-width: 992px) {
+    .course .inner:nth-child(3n+1) {
+        clear: both;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .logo img {
+        padding-top: 10px;
+        height: 70px;
+    }
+    .col-md-3.col-sm-12.top-socials {
+	top: 10px;
+}
+    .nav-menu ul li a {
+        padding: 30px 12px;
+    }
+    .attorney .item .social-icons ul li {
+        margin-right: 0px;
+    }
+    .footer-wedget1 i {
+        padding: 10px 13px;
+    }
+    .course-durations li {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .nav-menu {
+        text-align: center;
+    }
+
+    .header-top-search {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .call-to-action-button {
+        margin-top: 0px;
+    }
+    .call-to-action-text {
+        margin-right: 0;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+    .count-up-item {
+        margin: 40px 0;
+    }
+    .course-single-img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .course-single-page.course-single-page2 .course-single-img {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .course-durations.course-single-meta2 {
+        text-align: center;
+        width: 100%;
+    }
+    .order-summary {
+        margin-right: 0px;
+    }
+    .header {
+        display: none;
+    }
+
+    .price-heading.recomended-price::before {
+        left: -322px;
+    }
+    .order-summary {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-3.top-socials {
+        top: 127px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        float: nsdf;
+        left: -35%;
+    }
+    .header-top-social ul li a i {
+        border: 2px solid;
+    }
+
+    .header-top-contact {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding-bottom: 13px;
+    }
+
+    .nav-menu ul li a {
+        padding: 30px 14px;
+    }
+    .event-content {
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+    .overlay-icon a {
+        top: 40%;
+    }
+    .header.stick .logo img {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .logo {
+        text-align: center;
+    }
+    .nav-menu {
+        text-align: center;
+    }
+    .header-top-search {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .call-to-action-button {
+        margin-top: 0px;
+    }
+    .call-to-action-text {
+        margin-right: 0;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+    }
+    .count-up-item {
+        margin: 40px 0;
+    }
+    .course-single-img img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .course-single-page.course-single-page2 .course-single-img {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .course-durations.course-single-meta2 {
+        text-align: center;
+        width: 100%;
+    }
+    .order-summary {
+        margin-right: 0px;
+    }
+    .course .inner:nth-child(2n+1) {
+        clear: both;
+    }
+    .logo img {
+        height: 70px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .header-top {
+        min-height: 243px;
+    }
+    .header.stick {
+        position: inherit;
+
+    }
+    .col-md-3.top-socials {
+        top: 165px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        left: none;
+    }
+    .header-top-social {
+        text-align: center;
+    }
+    header .header {
+        display: block;
+        background: none;
+    }
+
+    .header-top-social ul li a i {
+        border: 2px solid;
+    }
+    .logo img {
+        height: 70px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    .header-top-contact {
+        text-align: center;
+        padding-bottom: 13px;
+    }
+    .contactfrom {
+        padding: 0px 15px;
+    }
+    .footer .col-md-3.col-sm-6 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .overlay-icon a {
+        top: 40%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 450px) {
+    .col-md-3.top-socials {
+        top: 345px !important;
+    }
+
+    .header-top {
+        min-height: 423px !important;
+    }
+.logo img {
+	height: 70px;
+	margin-top: 30px;
+	margin-bottom: -10px;
+}
+
+    .header {
+        display: none;
+    }
+    .showing-result.pull-right {
+        float: left!important;
+        margin-top: 10px;
+    }
+    .intro {
+        margin-bottom: 15px;
+        width: 100%;
+        padding-left: 0;
+    }
+    .intro i {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .intro > span {
+        padding-left: 0;
+        text-align: center;
+    }
+    .header-top-contact {
+        padding-bottom: 15px;
+    }
+    .header-top-contact .intro:nth-of-type(2) {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+    .single-news {
+        margin-bottom: 30px;
+    }
+    .intro {
+        padding-left: 10px;
+    }
+    .event-content {
+        top: 0;
+        left: 0;
+        padding: 0;
+    }
+    .overlay-icon a {
+        top: 35%;
+    }
+    .testimonial-content {
+        margin: 15px 0;
+    }
+    .single-price {
+        margin: 30px 0;
+    }
+    .count-up-item {
+        margin: 40px 0;
+    }
+    .call-to-action-text h2 {
+        font-size: 20px;
+    }
+    .comment-list .text span.date i {
+        margin-bottom: 20px;
+    }
+
+    .apply-meta {
+        float: none;
+    }
+    .course-single-page.course-single-page2 .course-single-img {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .review-form {
+        width: 320px;
+    }
+    .page-title {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+    }
+    .breadcumb {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .course-durations.course-single-meta2 {
+        text-align: center;
+        width: 100%;
+    }
+    .cupon-code {
+        margin-bottom: 20px;
+    }
+    .order-summary {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-top-contact {
+        padding-top: 15px;
+    }
+
+    .sidebar .widget-search input {
+        width: 164px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .page-title {
+        display: block;
+        width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .breadcumb {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .shop-res,
+    .shop-sort {
+        width: 50%;
+        float: left;
+    }
+    .product-details h2 {
+        margin-top: 20px;
+    }
+    .update.cupon-code {
+        float: left;
+        margin-top: 15px;
+    }
+
+    .header-top-contact {
+        padding-bottom: 30px;
+    }
+    .client-info {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    .client-info span {
+        display: block;
+        text-align: center;
+    }
+    .client-photo {
+        width: 100%;
+        text-align: center;
+    }
+    .client-photo img {
+        display: block!important;
+        text-align: center!important;
+        margin: 0 auto!important;
+        float: none!important;
+    }
+    .client-text {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        text-align: center;
+        clear: both;
+    }
+    .client-content p {
+        text-align: center;
+    }
+    .course-tab li {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .course-tab li.active:after {
+        display: none;
+    }
+    .blog ul li {
+        padding-left: 0;
+    }
+    .comments .comment-list .children .parent-inner {
+        margin-left: 20;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .comments .comment-list .children .children .parent-inner {
+        margin-left: 20;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .comments .comment-list > li {
+        border-bottom: 0;
+    }
+    .comments .comment-list .text span.date {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .shop-res,
+    .shop-sort {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .payment-method label {
+        display: block;
+    }
+    .comments .comment-list .children .parent-inner {
+        margin-left: 15px;
+    }
+    .comments .comment-list .children .children .parent-inner {
+        margin-left: 35px;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .all-testimonial.owl-carousel .owl-item img {
+        width: 90px;
+        height: 90px;
+    }
+    .sidebar {
+        margin-top: 50px;
+    }
+    .blog {
+        padding-bottom: 20px;
+    }
+
+    .mobile-menu-area {
+        display: block;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .header-top-social {
+        text-align: center;
+    }
+    header .header {
+        background: none;
+    }
+
+    .header-top {
+        min-height: 227px;
+    }
+    .header.stick {
+
+        position: inherit;
+
+    }
+    .col-md-3.top-socials {
+        top: 150px;
+        left: 0%;
+    }
+    .header-top-social ul li a i:hover{
+        border: 2px solid #333;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .course-details-area {
+        margin-top: -30px;
+    }
+}
